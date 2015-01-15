@@ -40,8 +40,8 @@ Say, you want to show the modal after clicking a button like '<button class="sig
   	});
 ```
 ### Step 2
-	Now you want close the modal automatically after registration done with ajax, then you have to call a method named
-	```
-	$.closebootstrapmodal();
-	```
-	from anywhere of you page or parent page.
+Now you want close the modal automatically after registration done with ajax, then you have to call a method named
+```
+$.closebootstrapmodal();
+```
+from anywhere of you page or parent page.
