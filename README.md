@@ -15,10 +15,12 @@ We would be glad, if it might possible to create bootstrap modal on the fly whic
 If you embed jquery.custombootstrapmodal.js in your web page then problem will be solved.
 This plugin creates a boostrap modal on the fly where you can see your web page which is provided by you.
 
-Code Structure:
-==============
+###Code Structure:
+
 add the following line after bootstrap.min.js in your "script" tag
+```
 <script src="jquery.custombootstrapmodal.js"></script>
+```
 
 Now,
 Say, you want to show the modal after clicking a button like '<button class="signup">Signup</button>' where a "signup.php" page will be displayed which you will provide. Then your code will be look like as follows
