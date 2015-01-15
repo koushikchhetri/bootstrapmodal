@@ -28,7 +28,7 @@ Say, you want to show the modal after clicking a button like '<button class="sig
 ### Step1
 ```
   $(document).on('click',"button.signup",function(){
-  		$.bootstrapmodal('[YOUR PAGE URL]',{//[YOUR PAGE URL] may be http://koushikchhetri.com/signup.php
+  		$.bootstrapmodal('[YOUR PAGE URL]',{//[YOUR PAGE URL] may like http://koushikchhetri.com/signup.php
   			height: '540',//[Optional] Height of modal, it automatically adjusts to 505px, if comment height attribute
   			//width: '540',//[Optional] Width of  modal, by default width of [YOUR PAGE URL] otherwise provided width
   			title: '[TTILE OF THE MODAL]',//[TITLE OF THE MODAL] may be "Registation Panel"
