@@ -3,10 +3,12 @@
 By default Boostrap Traditional modal does not support dynamicity as well as it does not support iframe integration in it. We know if we want to incorporate a boostrap modal in our page, then we have to put hidden html started with like 
 ```
 <div id="modal" class="modal fade"><div class="modal-dialog">
-```and a trigger button like 
+```
+and a trigger button like 
 ```
 <a href="#modal" role="button" class="btn btn-primary" data-toggle="modal">Show Me</a>
-```.It's very annoying to us since we stucked sometimes with it.
+```
+It's very annoying to us since we stucked sometimes with it.
 
 We would be glad, if it might possible to create bootstrap modal on the fly which will call our pages as like as fancybox, ligtbox do. But you guys do not bother, I've done this for me and you as well.
 
