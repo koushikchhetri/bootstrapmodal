@@ -15,7 +15,7 @@ We would be glad, if it might possible to create bootstrap modal on the fly whic
 If you embed jquery.custombootstrapmodal.js in your web page then problem will be solved.
 This plugin creates a boostrap modal on the fly where you can see your web page which is provided by you.
 
-###Code Structure:
+##Code Structure:
 
 add the following line after bootstrap.min.js in your "script" tag
 ```
@@ -25,8 +25,8 @@ add the following line after bootstrap.min.js in your "script" tag
 Now,
 Say, you want to show the modal after clicking a button like '<button class="signup">Signup</button>' where a "signup.php" page will be displayed which you will provide. Then your code will be look like as follows
 
-
-  #1
+### Step1
+```
   $(document).on('click',"button.signup",function(){
   		$.bootstrapmodal('[YOUR PAGE URL]',{//[YOUR PAGE URL] may be http://koushikchhetri.com/signup.php
   			height: '540',//[Optional] Height of modal, it automatically adjusts to 505px, if comment height attribute
@@ -38,8 +38,10 @@ Say, you want to show the modal after clicking a button like '<button class="sig
   			}
   		});
   	});
-	
-	
-	#2
-	Now you want close the modal automatically after registration done with ajax, then you have to call a method named 
-	"$.closebootstrapmodal();" from anywhere of you page or parent page.
+```
+### Step 2
+	Now you want close the modal automatically after registration done with ajax, then you have to call a method named
+	```
+	$.closebootstrapmodal();
+	```
+	from anywhere of you page or parent page.
