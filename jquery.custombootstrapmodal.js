@@ -1,3 +1,16 @@
+/*!
+ * bootstrapmodal v1.0 boostrap modal on the fly
+ * http://koushikchhetri.com/
+ *
+ * Author Koushik Chhetri
+ * Email: care.koushik.chhetri@gmail.com
+ *
+ * Copyright 20014
+ * Released under the MIT license
+ * http://koushikchhetri.com/licence
+ *
+ * Date: 2014-03-17T12:27Z
+ */
 (function(){
 	$.bootstrapmodal=function(url,options){
 		var settings = $.extend({
