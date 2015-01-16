@@ -45,3 +45,9 @@ Now you want close the modal automatically after registration done with ajax, th
 $.closebootstrapmodal();
 ```
 from anywhere of you page or parent page.
+
+## Live example
+Live example of bootstrapmodal is done in 
+```http://www.songhippo.com
+```
+Go to http://www.songhippo.com/ click on the "sign in" or "Join" or "Forgot Password" Buttons
